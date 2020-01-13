@@ -9,3 +9,4 @@ port.pipe(parser);
 parser.on('data', line => {
     console.log(line);
 });
+port.write('START');
